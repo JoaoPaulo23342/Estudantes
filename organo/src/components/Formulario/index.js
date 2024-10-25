@@ -1,4 +1,5 @@
 
+import Botao from '../Botao'
 import Lista from '../Lista'
 import TextArea from '../TextArea/TextArea'
 import './Formulario.css'
@@ -8,7 +9,8 @@ const Formulario = () => {
         'Estudantes do CEUB',
         'Estudantes do IESB',
         'Estudantes da Católica',
-        'Estudantes da Unieuro'
+        'Estudantes da Unieuro',
+        'Estudantes da Projeção'
         
     ]
     
@@ -21,9 +23,10 @@ const Formulario = () => {
 
                 <TextArea label="formação acadêmica" placeholder="Digite o Sua formação acadêmica" />
 
-                <TextArea label="Nome da Universidade" placeholder="Digite o nome da sua universidade" />
+                <TextArea label="Linkedin" placeholder="Digite o url do seu linkedin" />
 
                 <Lista itens={times} label='Lista de estudantes'/>
+                <Botao texto="criar Card"/>
             </form>
         </section>
     )
