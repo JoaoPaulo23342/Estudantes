@@ -23,7 +23,7 @@ const Formulario = () => {
 
                 <TextArea label="Nome da Universidade" placeholder="Digite o nome da sua universidade" />
 
-                <Lista itens={times}/>
+                <Lista itens={times} label='Lista de estudantes'/>
             </form>
         </section>
     )
