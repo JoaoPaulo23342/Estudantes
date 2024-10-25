@@ -5,7 +5,9 @@ const Lista = (props) => {
         <div>
             <label>{props.label}</label>
             <select>
-                {props.itens.map(item => <option key={item}>{item}</option>)}
+                {props.itens.map((item) => {
+                    return <option key={item}>{item}</option>
+                })}
             </select>
         </div>
     )
