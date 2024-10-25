@@ -26,7 +26,7 @@ const Formulario = () => {
                 <TextArea label="Linkedin" placeholder="Digite o url do seu linkedin" />
 
                 <Lista itens={times} label='Lista de estudantes'/>
-                <Botao texto="criar Card"/>
+                <Botao texto="Criar Card"/>
             </form>
         </section>
     )
