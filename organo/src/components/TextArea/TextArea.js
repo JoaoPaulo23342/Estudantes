@@ -2,7 +2,10 @@ import './TextArea.css'
 
 const TextArea = (props) => {
     
+    let value_of = ''
+
     const aoDigitado =  (ev) => {
+        value_of = ev.target.value
         console.log(ev.target.value)
     }
     return (
