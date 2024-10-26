@@ -1,8 +1,11 @@
+import { useState } from 'react'
 import './TextArea.css'
 
 const TextArea = (props) => {
     
-    let value_of = 'Paulo'
+    let value_of = ''
+
+    const [] = useState('')
 
     const Typed =  (ev) => {
         value_of = ev.target.value
