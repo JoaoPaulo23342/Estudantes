@@ -5,16 +5,15 @@ const TextArea = (props) => {
     
     let value_of = ''
 
-    const [] = useState('')
+    // const [value_of, setValue] = useState('')
 
     const Typed =  (ev) => {
-        value_of = ev.target.value
-        console.log(value_of)
+        props.aoSwitch(ev.target.value)
     }
     return (
         <div className="campo-texto">
             <label>{props.label}</label>
-            <input onChange={Typed} required={props.obrigatorio} type="text" placeholder={props.placeholder}/>
+            <input value={props.value_of} onChange={Typed} required={props.obrigatorio} type="text" placeholder={props.placeholder}/>
         </div>
     )
 }
