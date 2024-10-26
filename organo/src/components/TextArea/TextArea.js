@@ -2,16 +2,16 @@ import './TextArea.css'
 
 const TextArea = (props) => {
     
-    let value_of = ''
+    let value_of = 'Paulo'
 
-    const aoDigitado =  (ev) => {
+    const Typed =  (ev) => {
         value_of = ev.target.value
-        console.log(ev.target.value)
+        console.log(value_of)
     }
     return (
         <div className="campo-texto">
             <label>{props.label}</label>
-            <input onChange={aoDigitado} required={props.obrigatorio} type="text" placeholder={props.placeholder}/>
+            <input onChange={Typed} required={props.obrigatorio} type="text" placeholder={props.placeholder}/>
         </div>
     )
 }
