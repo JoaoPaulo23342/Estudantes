@@ -19,7 +19,7 @@ const Formulario = () => {
     const [imagem, setImagem] = useState('')
     const aoSalvar = (evento) => {
         evento.preventDefault()
-        console.log("Form foi submetido", `${nome}, ${cargo}, ${imagem}`)
+        console.log("Form foi submetido => ", `${nome}, ${cargo}, ${imagem}`)
     }
     return (
         <section className='formulario'>
