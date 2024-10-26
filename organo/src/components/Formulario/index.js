@@ -36,7 +36,7 @@ const Formulario = (props) => {
 
                 <TextArea obrigatorio={true} label="formação acadêmica" placeholder="Digite o Sua formação acadêmica" value_of={formacaoAcademica} aoSwitch={value_of => setFormacaoAcademica(value_of)}/>
 
-                <TextArea obrigatorio={true} label="Linkedin" placeholder="Digite o url do seu linkedin" value_of={linkedin} aoSwitch={value_of => setLinkedin(value_of)}/>
+                <TextArea obrigatorio={true} label="foto do Linkedin" placeholder="Digite o url da sua foto do linkedin" value_of={linkedin} aoSwitch={value_of => setLinkedin(value_of)}/>
 
                 <Lista obrigatorio={true} itens={times} label='Lista de estudantes' value_of={estudantes} aoSwitch={value_of => setEstudantes(value_of)}/>
                 <Botao>
