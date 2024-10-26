@@ -4,7 +4,7 @@ const Lista = (props) => {
     return (
         <div className='lista-suspensa'>
             <label>{props.label}</label>
-            <select required={props.required}>
+            <select onChange={ev => props.aoSwitch(ev.target.value)} required={props.required} value={props.value}>
                 {props.itens.map((item) => {
                     return <option key={item}>{item}</option>
                 })}

@@ -5,7 +5,7 @@ import Lista from '../Lista'
 import TextArea from '../TextArea/TextArea'
 import './Formulario.css'
 
-const Formulario = () => {
+const Formulario = (props) => {
     const times = [
         'Estudantes do CEUB',
         'Estudantes do IESB',
@@ -15,11 +15,17 @@ const Formulario = () => {
         
     ]
     const [nome, setNome] = useState('')
-    const [cargo, setCargo] = useState('')
-    const [imagem, setImagem] = useState('')
+    const [formacaoAcademica, setFormacaoAcademica] = useState('')
+    const [linkedin, setLinkedin] = useState('')
+    const [estudantes, setEstudantes] = useState('')
     const aoSalvar = (evento) => {
         evento.preventDefault()
-        console.log("Form foi submetido => ", `${nome}, ${cargo}, ${imagem}`)
+        props.estudanteLogin({
+            nome,
+            formacaoAcademica,
+            linkedin,
+            estudantes
+        })
     }
     return (
         <section className='formulario'>
@@ -28,11 +34,11 @@ const Formulario = () => {
                 
                 <TextArea obrigatorio={true} label="Nome" placeholder="Digite o seu Nome: " value_of={nome} aoSwitch={value_of => setNome(value_of)} />
 
-                <TextArea obrigatorio={true} label="formação acadêmica" placeholder="Digite o Sua formação acadêmica" value_of={cargo} aoSwitch={value_of => setCargo(value_of)}/>
+                <TextArea obrigatorio={true} label="formação acadêmica" placeholder="Digite o Sua formação acadêmica" value_of={formacaoAcademica} aoSwitch={value_of => setFormacaoAcademica(value_of)}/>
 
-                <TextArea obrigatorio={true} label="Linkedin" placeholder="Digite o url do seu linkedin" value_of={imagem} aoSwitch={value_of => setImagem(value_of)}/>
+                <TextArea obrigatorio={true} label="Linkedin" placeholder="Digite o url do seu linkedin" value_of={linkedin} aoSwitch={value_of => setLinkedin(value_of)}/>
 
-                <Lista itens={times} label='Lista de estudantes'/>
+                <Lista obrigatorio={true} itens={times} label='Lista de estudantes' value_of={estudantes} aoSwitch={value_of => setEstudantes(value_of)}/>
                 <Botao>
                     Criar Card
                 </Botao>
