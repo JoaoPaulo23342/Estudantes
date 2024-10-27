@@ -13,7 +13,7 @@ function App() {
     corSecundaria: '#360151'
   },{
     nome: 'Estudantes da Católica',
-    corPrimaria: '#27348b',
+    corPrimaria: '#ffffff',
     corSecundaria: '#27348B'
   },{
     nome: 'Estudantes da Unieuro',
