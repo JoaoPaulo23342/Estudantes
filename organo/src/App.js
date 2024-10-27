@@ -8,23 +8,23 @@ import Estudantes from './components/estudantes/Index';
 function App() {
 
   const estudante_of = [{
-    nome: '',
+    nome: 'Estudantes do CEUB',
     corPrimaria: '',
     corSecundaria: ''
   },{
-    nome: '',
+    nome: 'Estudantes da Católica',
     corPrimaria: '',
     corSecundaria: ''
   },{
-    nome: '',
+    nome: 'Estudantes da Unieuro',
     corPrimaria: '',
     corSecundaria: ''
   },{
-    nome: '',
+    nome: 'Estudantes da Projeção',
     corPrimaria: '',
     corSecundaria: ''
   },{
-    nome: '',
+    nome: 'Estudantes do IESB',
     corPrimaria: '',
     corSecundaria: ''
   }]

@@ -8,10 +8,10 @@ import './Formulario.css'
 const Formulario = (props) => {
     const times = [
         'Estudantes do CEUB',
-        'Estudantes do IESB',
         'Estudantes da Católica',
         'Estudantes da Unieuro',
-        'Estudantes da Projeção'
+        'Estudantes da Projeção',
+        'Estudantes do IESB'
         
     ]
     const [nome, setNome] = useState('')
