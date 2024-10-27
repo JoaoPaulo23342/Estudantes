@@ -6,6 +6,9 @@ import Estudantes from './components/estudantes/Index';
 
 
 function App() {
+
+  const estudante_of = []
+
   const [estudantes, setEstudantes] = useState([])
   const newEstudante = (estudante) =>  {
     console.log(estudante)
@@ -16,7 +19,7 @@ function App() {
     <div className="App">
       <Banner />
       <Formulario estudanteLogin={estudante => newEstudante(estudante)}/>
-      <Estudantes nome="Grupo para os estudantes de ADS"/>
+      <Estudantes nome=""/>
       <Estudantes nome="Grupo para os estudantes de Ciência da computação"/>
       <Estudantes nome="Grupo para os estudantes de Engenharia de Software"/>
       
