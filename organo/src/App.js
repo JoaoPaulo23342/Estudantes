@@ -7,7 +7,7 @@ import Estudantes from './components/estudantes/Index';
 
 function App() {
 
-  const estudante_List = [{
+  const estudanteList = [{
     nome: 'Estudantes do CEUB',
     corPrimaria: '#AC208E',
     corSecundaria: '#360151'
@@ -39,9 +39,9 @@ function App() {
     <div className="App">
       <Banner />
       <Formulario estudanteLogin={estudante => newEstudante(estudante)}/>
-      <Estudantes nome="hf"/>
-      <Estudantes nome="Grupo para os estudantes de Ciência da computação"/>
-      <Estudantes nome="Grupo para os estudantes de Engenharia de Software"/>
+      
+      {estudanteList.map(estudante => <Estudantes nome={estudante.nome}/>)}
+      
       
     </div>
   );
