@@ -2,7 +2,7 @@ import './Estudantes.css'
 
 const Estudantes = (props) => {
     return (
-        <section>
+        <section className='estudante'>
             <h3>{props.nome}</h3>
         </section>
     )
