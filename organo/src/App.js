@@ -7,26 +7,26 @@ import Estudantes from './components/estudantes/Index';
 
 function App() {
 
-  const estudante_of = [{
+  const estudante_List = [{
     nome: 'Estudantes do CEUB',
-    corPrimaria: '',
-    corSecundaria: ''
+    corPrimaria: '#AC208E',
+    corSecundaria: '#360151'
   },{
     nome: 'Estudantes da Católica',
-    corPrimaria: '',
-    corSecundaria: ''
+    corPrimaria: '#27348b',
+    corSecundaria: '#27348B'
   },{
     nome: 'Estudantes da Unieuro',
-    corPrimaria: '',
-    corSecundaria: ''
+    corPrimaria: '#0d4b81',
+    corSecundaria: '#ffffff'
   },{
     nome: 'Estudantes da Projeção',
-    corPrimaria: '',
-    corSecundaria: ''
+    corPrimaria: '#AE292E',
+    corSecundaria: '#3C3957'
   },{
     nome: 'Estudantes do IESB',
-    corPrimaria: '',
-    corSecundaria: ''
+    corPrimaria: '#D92F35',
+    corSecundaria: '#FFF'
   }]
 
   const [estudantes, setEstudantes] = useState([])
