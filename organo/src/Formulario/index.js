@@ -1,19 +1,12 @@
 
 import { useState } from 'react'
-import Botao from '../Botao'
-import Lista from '../Lista'
-import TextArea from '../TextArea/TextArea'
+import Botao from '../components/Botao'
+import Lista from '../components/Lista'
+import TextArea from '../components/TextArea/TextArea'
 import './Formulario.css'
 
 const Formulario = (props) => {
-    const times = [
-        'Estudantes do CEUB',
-        'Estudantes da Católica',
-        'Estudantes da Unieuro',
-        'Estudantes da Projeção',
-        'Estudantes do IESB'
-        
-    ]
+    
     const [nome, setNome] = useState('')
     const [formacaoAcademica, setFormacaoAcademica] = useState('')
     const [linkedin, setLinkedin] = useState('')
@@ -38,7 +31,7 @@ const Formulario = (props) => {
 
                 <TextArea obrigatorio={true} label="foto do Linkedin" placeholder="Digite o url da sua foto do linkedin" value_of={linkedin} aoSwitch={value_of => setLinkedin(value_of)}/>
 
-                <Lista obrigatorio={true} itens={times} label='Lista de estudantes' value_of={estudantes} aoSwitch={value_of => setEstudantes(value_of)}/>
+                <Lista obrigatorio={true} itens={props.estudantes} label='Lista de estudantes' value_of={estudantes} aoSwitch={value_of => setEstudantes(value_of)}/>
                 <Botao>
                     Criar Card
                 </Botao>

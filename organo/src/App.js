@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import Banner from './components/Banner/Banner';
-import Formulario from './components/Formulario';
+import Formulario from './Formulario';
 import Estudantes from './components/estudantes/Index';
 
 
@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <Banner />
-      <Formulario estudanteLogin={estudante => newEstudante(estudante)}/>
+      <Formulario estudantes={estudanteList.map(estudante => estudante.nome)} estudanteLogin={estudante => newEstudante(estudante)}/>
       
       {estudanteList.map(estudante => <Estudantes key={estudante.nome} nome={estudante.nome} primaryColor={estudante.corPrimaria} secondaryColor={estudante.corSecundaria}/>)}
       
