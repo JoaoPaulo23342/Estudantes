@@ -2,11 +2,11 @@ import './Card.css'
 
 const Card = () => {
     return (
-        <div>
-            <div>
+        <div className='estudante1'>
+            <div className='cabecalho'>
                 <img src='https://github.com/JoaoPaulo23342.png' alt=''></img>
             </div>
-            <div>
+            <div className='rodape'>
                 <h4>jp</h4>
                 <h5>Ciencia da computação</h5>
             </div>
