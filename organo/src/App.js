@@ -2,7 +2,8 @@ import { useState } from 'react';
 import Banner from './components/Banner/Banner';
 import Formulario from './Formulario';
 import Estudantes from './components/estudantes/Index';
-import { Card } from '@mui/material';
+import Card from './components/card';
+
 
 
 
@@ -41,7 +42,7 @@ function App() {
       <Banner />
       <Formulario estudantes={estudanteList.map(estudante => estudante.nome)} estudanteLogin={estudante => newEstudante(estudante)}/>
       
-      {estudanteList.map(estudante => <Estudantes key={estudante.nome} nome={estudante.nome} primaryColor={estudante.corPrimaria} secondaryColor={estudante.corSecundaria} estudantes={Card}/>)}
+      {estudanteList.map(estudante => <Estudantes key={estudante.nome} nome={estudante.nome} primaryColor={estudante.corPrimaria} secondaryColor={estudante.corSecundaria} estudantes={estudantes}/>)}
       
       
     </div>

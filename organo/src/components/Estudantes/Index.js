@@ -1,5 +1,5 @@
 import Card from '../card'
-import './Estudantes.css'
+import './estilo.css'
 
 const Estudantes = (props) => {
     return (
