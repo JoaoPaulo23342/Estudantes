@@ -4,7 +4,7 @@ const Card = (props) => {
     return (
         <div className='estudante1'>
             <div className='cabecalho'>
-                <img src='https://github.com/JoaoPaulo23342.png' alt=''></img>
+                <img src={props.linkedin} alt='imagem'/>
             </div>
             <div className='rodape'>
                 <h4>{props.nome}</h4>
