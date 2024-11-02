@@ -42,7 +42,7 @@ function App() {
       <Banner />
       <Formulario estudantes={estudanteList.map(estudante => estudante.nome)} estudanteLogin={estudante => newEstudante(estudante)}/>
       
-      {estudanteList.map(estudante => <Estudantes key={estudante.nome} nome={estudante.nome} primaryColor={estudante.corPrimaria} secondaryColor={estudante.corSecundaria} estudantes={estudantes}/>)}
+      {estudanteList.map(estudante => <Estudantes key={estudante.nome} nome={estudante.nome} primaryColor={estudante.corPrimaria} secondaryColor={estudante.corSecundaria} estudantes={estudantes.filter(estudante => estudante.estudanteList === estudanteList.nome)}/>)}
       
       
     </div>
