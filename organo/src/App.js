@@ -24,7 +24,7 @@ function App() {
   },{
     nome: 'Estudantes da Projeção',
     corPrimaria: '#AE292E',
-    corSecundaria: '#3C3957'
+    corSecundaria: '#072D52'
   },{
     nome: 'Estudantes do IESB',
     corPrimaria: '#D92F35',
