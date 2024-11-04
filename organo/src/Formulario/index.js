@@ -19,6 +19,10 @@ const Formulario = (props) => {
             linkedin,
             estudantes
         })
+        setNome('')
+        setFormacaoAcademica('')
+        setLinkedin('')
+        setEstudantes('')
     }
     return (
         <section className='formulario'>
