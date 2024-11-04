@@ -1,14 +1,14 @@
 import './Card.css'
 
-const Card = (props) => {
+const Card = ({ nome, linkedin, formacaoAcademica, corDeFundo }) => {
     return (
         <div className='estudante1'>
-            <div className='cabecalho'>
-                <img src={props.linkedin} alt='imagem'/>
+            <div className='cabecalho' style={{ backgroundColor: corDeFundo }}>
+                <img src={linkedin} alt='imagem'/>
             </div>
             <div className='rodape'>
-                <h4>{props.nome}</h4>
-                <h5>{props.formacaoAcademica}</h5>
+                <h4>{nome}</h4>
+                <h5>{formacaoAcademica}</h5>
             </div>
         </div>
     )
