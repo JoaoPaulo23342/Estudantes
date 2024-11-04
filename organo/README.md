@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+<h1>Gerenciador de Grupos Universitários<h1/>
+<h3>Um projeto para facilitar a organização e comunicação entre estudantes universitários.<h3/>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Instituições Suportadas:
+CEUB
+IESB
+Católica
+Unieuro
+Projeção
+Funcionalidades:
+Criação de grupos: Crie grupos específicos para cada instituição, curso, turma ou projeto.
+Gerenciamento de membros: Adicione, remova e edite membros de forma simples.
+Comunicação: Mantenha-se conectado com seus colegas através de um sistema de mensagens integrado.
+Compartilhamento de arquivos: Compartilhe materiais de estudo, projetos e outros arquivos importantes.
+Eventos e tarefas: Organize eventos, crie tarefas e receba lembretes para não perder nada.
+Relatórios: Gere relatórios detalhados sobre a atividade do grupo, como participação e progresso.
+Como Usar:
+Clone o repositório:
+Bash
+git clone [repositório]
+Use o código com cuidado.
 
-## Available Scripts
+Instale as dependências:
+Bash
+npm install
+Use o código com cuidado.
 
-In the project directory, you can run:
+Execute o servidor:
+Bash
+npm start
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Acesse o aplicativo: Abra seu navegador e digite http://localhost:3000.
+Tecnologias Utilizadas:
+[Nome da tecnologia 1]
+[Nome da tecnologia 2]
+[Nome da tecnologia 3]
+Contribuições:
+Contribuições são mais que bem-vindas! Se você encontrar algum bug ou tiver ideias para melhorar o projeto, abra um issue ou envie um pull request.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Licença:
+Este projeto está licenciado sob a licença [Nome da licença].
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contato:
+[Seu nome]
+[Seu email]
