@@ -1,46 +1,27 @@
-<h1>Gerenciador de Grupos Universitários<h1/>
-<h3>Um projeto para facilitar a organização e comunicação entre estudantes universitários.<h3/>
+## Gerenciador de Grupos Universitários
 
-Instituições Suportadas:
-CEUB
-IESB
-Católica
-Unieuro
-Projeção
-Funcionalidades:
-Criação de grupos: Crie grupos específicos para cada instituição, curso, turma ou projeto.
-Gerenciamento de membros: Adicione, remova e edite membros de forma simples.
-Comunicação: Mantenha-se conectado com seus colegas através de um sistema de mensagens integrado.
-Compartilhamento de arquivos: Compartilhe materiais de estudo, projetos e outros arquivos importantes.
-Eventos e tarefas: Organize eventos, crie tarefas e receba lembretes para não perder nada.
-Relatórios: Gere relatórios detalhados sobre a atividade do grupo, como participação e progresso.
-Como Usar:
-Clone o repositório:
-Bash
-git clone [repositório]
-Use o código com cuidado.
+**Um projeto open-source para conectar estudantes e facilitar a colaboração em projetos acadêmicos.**
 
-Instale as dependências:
-Bash
-npm install
-Use o código com cuidado.
+### **Introdução**
 
-Execute o servidor:
-Bash
-npm start
+Este projeto é um gerenciador de grupos de estudantes em universidades, facilitando a organização e comunicação entre os alunos.
+
+### **Funcionalidades Principais**
+
+* **Criação de grupos:** Crie grupos personalizados para trabalhos acadêmicos.
 
 
-Acesse o aplicativo: Abra seu navegador e digite http://localhost:3000.
-Tecnologias Utilizadas:
-[Nome da tecnologia 1]
-[Nome da tecnologia 2]
-[Nome da tecnologia 3]
-Contribuições:
-Contribuições são mais que bem-vindas! Se você encontrar algum bug ou tiver ideias para melhorar o projeto, abra um issue ou envie um pull request.
 
-Licença:
-Este projeto está licenciado sob a licença [Nome da licença].
 
-Contato:
-[Seu nome]
-[Seu email]
+### **Tecnologias Utilizadas**
+
+| Tecnologia | Descrição |
+|---|---|
+| **Frontend** | ReactJS | Biblioteca JavaScript para construir interfaces de usuário |
+
+
+### **Instalação**
+
+1. **Clone o repositório:**
+   ```bash
+   git clone https://github.com/JoaoPaulo23342/Estudantes
