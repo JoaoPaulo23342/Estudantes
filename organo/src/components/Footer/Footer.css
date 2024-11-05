@@ -1,9 +1,10 @@
+
 .footer {
-    background-color: #291C98;
+    background: #00A3D4;
     color: #FFF;
-    padding: 80px;
+    padding: 40px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -14,4 +15,13 @@
 
 .footer ul li:last-child {
     margin-right: 0;
+}
+
+.footer h2 {
+    text-align: center;
+}
+
+.footer h4 {
+    text-align: center;
+    
 }
