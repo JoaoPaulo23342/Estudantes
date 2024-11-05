@@ -5,17 +5,17 @@ const Rodape = () => {
        <section>
            <ul>
                <li>
-                   <a href="facebook.com" target="_blank">
-                       <img src="/imagem/fb.png" alt="" />
+                   <a href="https://www.linkedin.com/in/jo%C3%A3o-paulo-01b137315/" target="_blank">
+                       <img src="/imagem/ln.png" alt="" />
                    </a>
                </li>
                <li>
-                   <a href="twitter.com" target="_blank">
-                       <img src="/imagem/tw.png" alt="" />
+                   <a href="https://github.com/JoaoPaulo23342" target="_blank">
+                       <img src="/imagem/gt.png" alt="" />
                    </a>
                </li>
                <li>
-                   <a href="instagram.com" target="_blank">
+                   <a href="instagram.com.br" target="_blank">
                        <img src="/imagem/ig.png" alt="" />
                    </a>
                </li>
