@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Banner from './components/Banner/Banner';
 import Formulario from './Formulario';
 
-import Estudantes from './components/estudantes';
+import Estudantes from './components/Estudantes';
 
 import Footer from './components/Footer';
 import Rodape from './components/Footer';

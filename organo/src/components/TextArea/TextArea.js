@@ -3,7 +3,7 @@ import './TextArea.css'
 
 const TextArea = (props) => {
     
-    let value_of = ''
+    
 
     // const [value_of, setValue] = useState('')
 
