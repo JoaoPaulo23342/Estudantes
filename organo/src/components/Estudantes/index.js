@@ -1,4 +1,4 @@
-import Card from '../card'
+import Card from '../Card'
 import './estilo.css'
 
 const Estudantes = (props) => {
